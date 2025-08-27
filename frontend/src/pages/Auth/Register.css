@@ -1,0 +1,15 @@
+.register-content{
+    height: 440px;
+    width: 600px;
+}
+.register-content img{
+    height: 360px;
+    width: 280px;
+}
+.register-content form{
+    height: 380px;
+}
+.register-content img:hover{
+    height: 380px;
+    margin: 4px 16px 12px 10px;
+}

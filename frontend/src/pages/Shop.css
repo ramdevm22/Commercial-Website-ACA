@@ -1,0 +1,53 @@
+.shop-content{
+    display: flex;
+}
+.left-search-bar{
+    width: 280px;
+    height: 600px;
+    margin: 10px 10px 10px 160px;
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid rgb(94, 92, 92);
+}
+.left-search-bar h3{
+    color: white;
+    background-color: rgb(47, 44, 44);
+    margin: 5px;
+    padding: 5px;
+}
+.left-search-bar button{
+    background-color: rgb(80, 75, 75);
+    margin: 10px 20px 10px 20px;
+    padding: 5px;
+    color: white;
+    width: 80%;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+}
+.left-search-bar button:hover{
+    width: 84%;
+    height: 38px;
+}
+.left-search-bar input{
+    width: 80%;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+   color: blanchedalmond;
+}
+.left-search-bar .Reset-Filter{
+    background-color: rgb(119, 63, 109);
+}
+.shop-content .right-content{
+    margin-left: 520px;
+    height: 600px;
+    width: 800px;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

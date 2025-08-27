@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 7%;
+    height: 100%;
+    padding: 10px 5px;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+   
+}
+header a{
+    color: white;
+    padding: 10px;
+    height: 40px;
+    background-color: black;
+   
+}
+header div{
+    padding-top: 300px;
+    background-color: black;
+    position: static;
+}
+.navbar a:hover{
+   color: rgb(139, 9, 104);
+}
+.nav-icon{
+    background-color: black;
+    height: 32px;
+    width: 40px; 
+}
+
+header .count{
+    background-color:rgb(248, 12, 12);
+    text-decoration: none;  
+}
