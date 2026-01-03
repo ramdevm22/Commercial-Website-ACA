@@ -76,3 +76,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </PayPalScriptProvider>
   </Provider>
 );
+
+fetch("http://localhost:4000/api/auth/me", {
+  method: "GET",
+  credentials: "include", // 👈 super important
+});
+
+import axios from "axios";
+axios.defaults.withCredentials = true; // set once
+axios.get("http://localhost:4000/api/auth/me");
