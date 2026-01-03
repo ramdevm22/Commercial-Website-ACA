@@ -100,40 +100,6 @@ http://localhost:5173
 
 ---
 
-## 🌐 Deployment Guide
-
-### MongoDB Atlas
-- Create a free cluster
-- Create database user
-- Whitelist IP: 0.0.0.0/0
-- Copy connection string as MONGO_URI
-
-### Backend Deployment (Render)
-- Push code to GitHub
-- Create a Web Service on Render
-- Build Command: npm install
-- Start Command: npm start
-- Add environment variables: MONGO_URI, JWT_SECRET
-
-### Frontend Deployment (Vercel)
-- Import GitHub repository
-- Select frontend folder
-- Add environment variable:
-  VITE_API_URL=https://your-backend.onrender.com
-- Deploy
-
----
-
-## 📌 Best Practices
-
-- node_modules not committed to GitHub
-- .env files excluded from version control
-- Environment variables used for sensitive data
-- Frontend and backend deployed separately
-- Secure CORS configuration
-
----
-
 ## 👨‍💻 Author
 
 Ramdev Meghwal  
