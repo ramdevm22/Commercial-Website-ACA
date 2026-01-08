@@ -5,7 +5,7 @@ It supports user registration and login and follows industry-standard practices 
 
 ---
 
-## 🚀 Features
+## Features
 
 - User registration and login with JWT-based authentication
 - Secure password hashing and validation
@@ -16,7 +16,7 @@ It supports user registration and login and follows industry-standard practices 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React.js
@@ -32,16 +32,6 @@ It supports user registration and login and follows industry-standard practices 
 
 ---
 
-## 📁 Project Structure
-
-group-8_Ass-3/
-│
-├── frontend/        # React frontend
-├── backend/         # Node.js & Express backend
-└── README.md
-
----
-
 ## ⚙️ Prerequisites
 
 - Node.js (v16 or later recommended)
@@ -51,16 +41,16 @@ group-8_Ass-3/
 
 ---
 
-## ▶️ How to Run the Project Locally
+## How to Run the Project Locally
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 
 git clone <your-repository-url>
 cd group-8_Ass-3
 
 ---
 
-### 2️⃣ Start the Backend
+### 2️. Start the Backend
 
 cd backend
 npm install
@@ -77,7 +67,7 @@ http://localhost:5000
 
 ---
 
-### 3️⃣ Start the Frontend
+### 3️. Start the Frontend
 
 Open a new terminal:
 
@@ -90,7 +80,7 @@ http://localhost:5173
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 1. User registers using the Register page
 2. Frontend sends credentials to backend REST API
@@ -100,13 +90,13 @@ http://localhost:5173
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Ramdev Meghwal  
 MERN Stack Developer | React | Node.js | MongoDB | JWT
 
 ---
 
-## 📄 License
+## License
 
 This project is for learning and demonstration purposes only.
