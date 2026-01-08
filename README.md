@@ -32,7 +32,7 @@ It supports user registration and login and follows industry-standard practices 
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - Node.js (v16 or later recommended)
 - npm
